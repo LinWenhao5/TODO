@@ -1,0 +1,16 @@
+{
+  "name": "htdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass css/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitlab.bit-academy.nl:644425f5-de0a-11ea-b861-cec41367f4e7/36a05e98-e05e-11ea-b861-cec41367f4e7/What-To-Do-5565b40c-2ac12df8.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

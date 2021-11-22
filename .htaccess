@@ -1,0 +1,9 @@
+RewriteEngine On
+
+ErrorDocument 404 /notFound.php
+RewriteCond %{REQUEST_URI} !\.(?:css|js)$ [NC]
+RewriteRule .* src/index.php [L,QSA]
+
+
+
+

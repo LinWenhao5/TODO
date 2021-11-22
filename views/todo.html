@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="/views/css/style.css">
+    <script src="/views/todo.js"></script>
+</head>
+<body>
+    <div class="top">
+        <a href='/Home/index'>Home</a>
+    </div>
+    <div class='mid'>
+        <h1>My To Do list</h1>
+        <form action="/Todo/add" method='POST'>
+            <input type="text" name="event" placeholder="title">
+            <input type="submit" value="add">
+        </form>
+        <ul id="myList">
+            
+        </ul>
+    </div>
+    <div class="footer">
+        <a href='/Todo/In_progress'>In progress</a>
+        <a href='/Todo/Complete'>Completed</a>
+    </div>
+</body>
+</html>
